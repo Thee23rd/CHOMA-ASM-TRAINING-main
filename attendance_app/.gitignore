@@ -1,6 +1,4 @@
-# Local SQLite databases – keep data out of git
-attendance.sqlite3
-attendance*.sqlite3
+# SQLite DB (`attendance.sqlite3`) is tracked so Streamlit Cloud has data on deploy.
 
 # Python virtual environment for this app
 .venv/
@@ -8,4 +6,3 @@ attendance*.sqlite3
 # Streamlit and Python cache files
 __pycache__/
 .streamlit/
-
