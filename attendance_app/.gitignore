@@ -1,0 +1,11 @@
+# Local SQLite databases – keep data out of git
+attendance.sqlite3
+attendance*.sqlite3
+
+# Python virtual environment for this app
+.venv/
+
+# Streamlit and Python cache files
+__pycache__/
+.streamlit/
+
